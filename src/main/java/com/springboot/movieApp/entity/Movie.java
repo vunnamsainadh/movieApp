@@ -1,4 +1,4 @@
-package com.example.movieApp.entity;
+package com.springboot.movieApp.entity;
 
 import java.time.LocalDateTime;
 
@@ -31,8 +31,9 @@ public class Movie {
 		private String coverPhotoUrl;
 		@Column(name="duration", nullable=false)
 		private double duration;
-		@Column(name="duration", nullable=false)
+		@Column(name="genre", nullable=false)
 		private String genre;
+		
 		public int getMovieId() {
 			return movieId;
 		}
